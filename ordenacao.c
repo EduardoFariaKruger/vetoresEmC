@@ -67,6 +67,8 @@ int main ()
     int tam;
     int vetor[MAX];
 
+    
+
     scanf("%d", &tam);
     preenche_vetor(vetor, tam);
     selection_sort(vetor, tam);
